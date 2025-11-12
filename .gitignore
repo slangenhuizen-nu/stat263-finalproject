@@ -1,0 +1,4 @@
+*.venv
+*venv*
+*breast_cancer_data/
+*split_data/
