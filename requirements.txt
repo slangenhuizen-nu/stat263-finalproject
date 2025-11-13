@@ -6,3 +6,4 @@ matplotlib
 ipykernel
 torch
 scipy
+scikit-learn
