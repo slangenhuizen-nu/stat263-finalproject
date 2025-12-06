@@ -24,30 +24,40 @@ Our final model achieved a training accuracy of 75.00% and a test accuracy of 79
 | **Keras Tuner Model** | - Same architecture as initial model<br> - Added dropout layer<br> - Tuned hyperparameters (activation function, dense units, filters, padding, kernel size, dropout rate, learning rate) | **74.26%**            | **77.78%**        |
 | **Final Model**       | - 4 convolutional blocks<br> - 2 fully connected layers (each followed by a dropout layer, dropout = 0.4)<br> - Softmax output layer                                                      | **75.00%**            | **79.01%**        |
 
+---
+
+
 
 **Training and validation accuracy and loss plots:** 
+
+
 <img width="821" height="302" alt="Screenshot 2025-12-06 at 4 20 49 PM" src="https://github.com/user-attachments/assets/699c580a-4df7-4198-966f-bcb9aaf90e63" />
 
 
-**Confusion matrices:**
+---
 
-| **True \ Pred** | **benign** | **malignant** | **normal** |
-| --------------- | ---------- | ------------- | ---------- |
-| **benign**      | 194        | 62            | 49         |
-| **malignant**   | 96         | 24            | 27         |
-| **normal**      | 59         | 16            | 17         |
+**Confusion matrices:**
+|              | **Predicted** | **benign** | **malignant** | **normal** |
+|--------------|---------------|------------|----------------|------------|
+| **True**     | **benign**    | 194        | 62             | 49         |
+|              | **malignant** | 96         | 24             | 27         |
+|              | **normal**    | 59         | 16             | 17         |
+
 ---
-| **True \ Pred** | **benign** | **malignant** | **normal** |
-| --------------- | ---------- | ------------- | ---------- |
-| **benign**      | 60         | 12            | 15         |
-| **malignant**   | 19         | 9             | 14         |
-| **normal**      | 15         | 6             | 5          |
+
+|              | **Predicted** | **benign** | **malignant** | **normal** |
+|--------------|---------------|------------|----------------|------------|
+| **True**     | **benign**    | 60         | 12             | 15         |
+|              | **malignant** | 19         | 9              | 14         |
+|              | **normal**    | 15         | 6              | 5          |
+
 ---
-| **True \ Pred** | **benign** | **malignant** | **normal** |
-| --------------- | ---------- | ------------- | ---------- |
-| **benign**      | 26         | 9             | 10         |
-| **malignant**   | 13         | 4             | 4          |
-| **normal**      | 8          | 4             | 3          |
+|              | **Predicted** | **benign** | **malignant** | **normal** |
+|--------------|---------------|------------|----------------|------------|
+| **True**     | **benign**    | 26         | 9              | 10         |
+|              | **malignant** | 13         | 4              | 4          |
+|              | **normal**    | 8          | 4              | 3          |
+
 ---
 
 
