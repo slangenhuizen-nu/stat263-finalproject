@@ -1,7 +1,10 @@
 # stat263-finalproject
 __Project:__ Breast Cancer Imaging Classification
+
 __Course:__ STAT 362-0
+
 __Quarter:__ Fall 2025
+
 __Team Members:__ Sofie Langenhuizen, Gabriella Messenger, Leah Tan
 
 Breast cancer remains a leading cause of death for women worldwide, accounting for 24.2% of cancer cases in women _(Barrios 2022)_. Early detection of tumors at a localized stage is the most effective combative strategy to improve outcomes, increasing the relative 5-year relative survival rate to 99% _(Shockney 2023)_. We aim to leverage deep learning models to enhance these early detection models. Unlike traditional diagnostic methods like MRIs, which are costly and extremely limited in predictive capability due to the complexity of interpretation, models like convolutional neural networks (CNNs) offer a more accessible and efficient process. These models can identify subtle anomalies more quickly, and in many cases, more accurately. Thus, CNNs can not only improve the quality of medical images, but also serve as powerful predictive tools in early-stage diagnosis _(Khalid 2023)_.
