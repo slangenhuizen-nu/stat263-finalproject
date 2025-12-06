@@ -36,29 +36,39 @@ Our final model achieved a training accuracy of 75.00% and a test accuracy of 79
 
 ---
 
-**Confusion matrices:**
-|              | **Predicted** | **benign** | **malignant** | **normal** |
+__Confusion matrices:__
+
+
+**Training**
+|       |              |              | **Predicted** |              |
 |--------------|---------------|------------|----------------|------------|
-| **True**     | **benign**    | 194        | 62             | 49         |
-|              | **malignant** | 96         | 24             | 27         |
+|              |              | **benign** | **malignant** | **normal** |
+|| **benign**    | 194        | 62             | 49         |
+| **True**     | **malignant** | 96         | 24             | 27         |
 |              | **normal**    | 59         | 16             | 17         |
 
 ---
 
-|              | **Predicted** | **benign** | **malignant** | **normal** |
+**Validation**
+|              |              |              | **Predicted** |              |
 |--------------|---------------|------------|----------------|------------|
-| **True**     | **benign**    | 60         | 12             | 15         |
-|              | **malignant** | 19         | 9              | 14         |
-|              | **normal**    | 15         | 6              | 5          |
+|              |              | **benign** | **malignant** | **normal** |
+|| **benign**    | 60        | 12             | 15         |
+| **True**     | **malignant** | 19         | 9             | 14         |
+|              | **normal**    | 15         | 6             | 5         |
+
 
 ---
-|              | **Predicted** | **benign** | **malignant** | **normal** |
+**Test**
+|             |              |              | **Predicted** |              |
 |--------------|---------------|------------|----------------|------------|
-| **True**     | **benign**    | 26         | 9              | 10         |
-|              | **malignant** | 13         | 4              | 4          |
-|              | **normal**    | 8          | 4              | 3          |
+|              |              | **benign** | **malignant** | **normal** |
+|| **benign**    | 26        | 9             | 10         |
+| **True**     | **malignant** | 13         | 4             | 4         |
+|              | **normal**    | 8         | 4             | 3         |
 
 ---
+
 
 
 __Steps to run the code:__
