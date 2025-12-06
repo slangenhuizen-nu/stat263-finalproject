@@ -26,9 +26,11 @@ Our final model achieved a training accuracy of 75.00% and a test accuracy of 79
 
 
 **Training and validation accuracy and loss plots:** 
+<img width="821" height="302" alt="Screenshot 2025-12-06 at 4 20 49 PM" src="https://github.com/user-attachments/assets/699c580a-4df7-4198-966f-bcb9aaf90e63" />
 
 
 **Confusion matrices:**
+
 | **True \ Pred** | **benign** | **malignant** | **normal** |
 | --------------- | ---------- | ------------- | ---------- |
 | **benign**      | 194        | 62            | 49         |
