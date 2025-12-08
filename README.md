@@ -14,7 +14,8 @@ Baseline keras CNN with 5 convolutional layers, 2 dense layers with ‘relu’ a
 
 __Summary of key results:__
 
-Our final model achieved a training accuracy of 75.00% and a test accuracy of 79.01%.
+Our final model achieved a training accuracy of 75.00% and a test accuracy of 79.01%.  
+A summary of the different models we experimented with is provided below:
 
 | **Model**             | **Summary**                                                                                                                                                                               | **Training Accuracy** | **Test Accuracy** |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ----------------- |
@@ -84,9 +85,9 @@ Install dependencies with the following command in your terminal.
 pip install -r requirements.txt
 ```
 
-3. Run `data_processing.ipynb` notebook to create new file directories and split data.
+3. Run `scripts/data_processing.ipynb` notebook to create new file directories and split data.
 
-4. Run `final_model.ipynb` notebook to create and run the classification model and see output results. 
+4. Run `scripts/final_model.ipynb` notebook to create and run the classification model and see output results. 
 
 
 
