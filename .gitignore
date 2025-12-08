@@ -5,3 +5,4 @@
 *my_dir/
 *past_models/
 *.DS_Store
+*breast_cancer_data/
