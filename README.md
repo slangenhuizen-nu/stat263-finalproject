@@ -76,29 +76,31 @@ __Steps to run the code:__
 
 1. Clone this repository to your local device.  
 
-2. Download the dataset from Kaggle: https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset/data  
+2. If you would like to see a demo of the final model with sample images, run the 'scripts/demo.ipynb' notebook.  
 
-3. Unzip the downloaded dataset and place it in the root directory of the cloned repository. Rename the folder to 'breast_cancer_data'.  
+3. Download the dataset from Kaggle: https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset/data  
 
-4. Run the following command in your terminal to delete unneeded mask files:
+4. Unzip the downloaded dataset and place it in the root directory of the cloned repository. Rename the folder to 'breast_cancer_data'.  
+
+5. Run the following command in your terminal to delete unneeded mask files:
 ```bash
 rm breast_cancer_data/*/*mask*
 ```
 
-5. Create a virtual environment with the following command in your terminal.
+6. Create a virtual environment with the following command in your terminal.
 ```bash
 python -m venv venv
 ```
 
-6. Open a new terminal. 
+7. Open a new terminal. 
 Install dependencies with the following command in your terminal. 
 ```bash
 pip install -r requirements.txt
 ```
 
-7. Run `scripts/data_processing.ipynb` notebook to create new file directories and split data.
+8. Run `scripts/data_processing.ipynb` notebook to create new file directories and split data.
 
-8. Run `scripts/final_model.ipynb` notebook to create and run the classification model and see output results. 
+9. Run `scripts/final_model.ipynb` notebook to create and run the classification model and see output results. 
 
 
 
